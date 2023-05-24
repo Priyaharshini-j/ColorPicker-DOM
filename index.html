@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorPicker</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="slideshow-container fade">
+        <div class="Containers" id="container1">
+            <label for="colorpicker">Color Picker:</label>
+            <input type="color" id="colorpicker1" value="#0000ff">
+            <p id="colorcode1"></p>
+        </div>
+      
+        <div class="Containers" id="container2">
+            <label for="colorpicker">Color Picker:</label>
+            <input type="color" id="colorpicker2" value="#0000ff">
+            <p id="colorcode2"></p>
+        </div>
+      
+        <div class="Containers" id="container3">
+            <label for="colorpicker">Color Picker:</label>
+            <input type="color" id="colorpicker3" value="#0000ff">
+            <p id="colorcode3"></p>
+        </div>
+        <div class="Containers" id="container4">
+            <label for="colorpicker">Color Picker:</label>
+            <input type="color" id="colorpicker4" value="#0000ff">
+            <p id="colorcode4"></p>
+        </div>
+      
+        <div class="Containers" id="container5">
+            <label for="colorpicker">Color Picker:</label>
+            <input type="color" id="colorpicker5" value="#0000ff">
+            <p id="colorcode5"></p>
+        </div>
+      
+        <div class="Containers" id="container6">
+            <label for="colorpicker">Color Picker:</label>
+            <input type="color" id="colorpicker6" value="#0000ff">
+            <p id="colorcode6"></p>
+        </div>
+      
+        <!-- Back and forward buttons -->
+        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The circles/dots -->
+      <div style="text-align:center">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>        
+        <span class="dots" onclick="currentSlide(4)"></span>
+        <span class="dots" onclick="currentSlide(5)"></span>
+        <span class="dots" onclick="currentSlide(6)"></span>
+      </div> 
+      <script src="assets/script.js"></script>
+</body>
+</html>
